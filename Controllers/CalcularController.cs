@@ -32,8 +32,7 @@ namespace DevSoftPlayerApi2.Controllers
         [Route("Git")]
         public IActionResult ShowMeTheCode()
         {
-
-            return Ok();
+            return Ok("https://github.com/daniel20max/DevSoftPlayerApi2");
         }
     }
 }
